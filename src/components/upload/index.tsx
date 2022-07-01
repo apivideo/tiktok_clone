@@ -33,10 +33,13 @@ const Upload: FC<IUploadProps> = ({ mutate }): JSX.Element => {
     const inputFile = useRef<HTMLInputElement | null>(null)
     // HANDLERS
     const openFilePicker = () => {
-        setVideo(undefined)
-        setReady(false)
-        setInterId(undefined)
-        !isUploading && inputFile && inputFile?.current?.click()
+        // setVideo(undefined)
+        // setReady(false)
+        // setInterId(undefined)
+        // !isUploading && inputFile && inputFile?.current?.click()
+        alert(
+            `You can't upload a video in this demo for security concerns. To try,  clone the repo, enter your API Key and upload your own videos. https://github.com/apivideo/tiktok_clone`
+        )
     }
 
     const fileInputChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
