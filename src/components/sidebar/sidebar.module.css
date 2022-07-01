@@ -1,0 +1,15 @@
+.sidebar {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar__button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

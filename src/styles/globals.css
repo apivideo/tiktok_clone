@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+*:focus {
+    outline: none;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*  10px/16px = 62.5% -> 1rem = 10px */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #f9f9f9;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}

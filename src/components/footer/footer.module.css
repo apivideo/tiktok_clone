@@ -1,0 +1,31 @@
+.videoFooter {
+    position: relative;
+    color: white;
+    bottom: 160px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.videoFooter__text h3 {
+    margin-bottom: 10px;
+}
+
+.videoFooter__text p {
+    margin-bottom: 15px;
+}
+
+.videoFooter__text span {
+    color: #fa5b30;
+}
+
+.videoFooter__marquee {
+    display: flex;
+}
+.videoFooter__marquee__container {
+    max-width: 50%;
+}
+
+.videoFooter__marquee p {
+    padding-left: 10px;
+    color: #e9e9e9;
+}

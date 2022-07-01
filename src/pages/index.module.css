@@ -1,0 +1,34 @@
+.app {
+    height: 100vh;
+    width: 100vw;
+}
+
+.app__videos {
+    height: calc(100% - 50px);
+    width: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+@media screen and (min-width: 1024px) {
+    .app__videos {
+        display: none;
+    }
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.app__videos {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.app__large_screen {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .app__large_screen {
+        display: none;
+    }
+}

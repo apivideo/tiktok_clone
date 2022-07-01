@@ -1,0 +1,67 @@
+.upload {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+    .upload {
+        display: none;
+    }
+}
+
+.upload__progress {
+    width: 100%;
+    height: 4px;
+    background: #e1e4e8;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+.upload__progressbar {
+    display: block;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        #ffd33d,
+        #ea4aaa 17%,
+        #b34bff 34%,
+        #01feff 51%,
+        #ffd33d 68%,
+        #ea4aaa 85%,
+        #b34bff
+    );
+    background-size: 300% 100%;
+    animation: progress-animation 2s linear infinite;
+}
+
+@keyframes progress-animation {
+    0% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0;
+    }
+}
+
+.upload__label {
+    color: #e9e9e9;
+    font-size: 14px;
+}
+
+.addIcon__wrapper {
+    background-color: #ffffff;
+    width: 40px;
+    height: 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    color: #111111;
+    filter: drop-shadow(4px 0px 0px #fd3e3e) drop-shadow(-4px 0px 0px #4de8f4);
+}

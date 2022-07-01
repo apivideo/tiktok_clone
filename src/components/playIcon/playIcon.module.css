@@ -1,0 +1,15 @@
+.playIcon {
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+}
+
+.playIcon__wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
