@@ -33,6 +33,7 @@ const Upload: FC<IUploadProps> = ({ mutate }): JSX.Element => {
     const inputFile = useRef<HTMLInputElement | null>(null)
     // HANDLERS
     const openFilePicker = () => {
+        //Unused
         // setVideo(undefined)
         // setReady(false)
         // setInterId(undefined)
