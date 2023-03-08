@@ -22,7 +22,7 @@ const DesktopView: FC = (): JSX.Element => {
                             <p className={styles.qrcode__title}>SCAN ME</p>
                         </div>
                         <div className={styles.banner__logo}>
-                            <Image src={ApiVideoLogoWhite} alt="Logo Api.video" />
+                            <Image src={ApiVideoLogoWhite} alt="Logo api.video" />
                             <Image src={TikTokLogo} alt="Logo TikTok" />
                         </div>
                     </div>

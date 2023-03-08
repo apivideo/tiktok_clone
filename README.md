@@ -1,6 +1,6 @@
 <p align="center">
 <a  href="https://github.com/muxinc/stream.new">
-    <img src="https://github.com/apivideo/api.video-api-specification/blob/master/apivideo_banner.png?raw=true" alt="Api.video Logo" width="100%" >
+    <img src="https://github.com/apivideo/api.video-api-specification/blob/master/apivideo_banner.png?raw=true" alt="api.video Logo" width="100%" >
 </a>
 </p>
 <h1 align="center">Rebuilding TikTok with api.video, PWA, Next.js and Typescript 🎵</h1>
@@ -40,7 +40,7 @@ An open-source example application that allows users to list and upload videos i
 
 # About The Project
 
-### Api.video:
+### api.video:
 
 -   Get videos: [@api.video/nodejs-client](https://github.com/apivideo/api.video-nodejs-client) - api.video's Node.js is a lightweight client built in TypeScript that streamlines the coding process. Chunking files is handled for you, as is pagination and refreshing your tokens.
 -   Display videos: [@api.video/react-player](https://github.com/apivideo/api.video-react-player) - A React component for playing api.video videos.
